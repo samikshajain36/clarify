@@ -1,0 +1,12 @@
+.bgcolor{
+    background-color: #0c4d71;
+}
+.max-width{
+max-width: 448px;
+}
+.img{
+    width: 125%;
+}
+.item{
+    align-items: baseline;
+}
