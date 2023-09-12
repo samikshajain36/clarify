@@ -6,6 +6,8 @@ import HomePage from './component/pages/HomePage';
 import PricingPage from './component/pages/PricingPage';
 import Contact from './component/pages/Contact';
 import Footer from './component/Footer';
+import Login from './component/LoginForm/Login';
+import Dashboard from './component/Dashboard';
 
 function App() {
   return (
@@ -15,11 +17,11 @@ function App() {
         {/* <Navbar/> */}
         <Routes>
           {/* <Route path="/dropdownprofile" element={<DropdownProfle />} /> */}
-          {/* <Route path="/loginpage" element={<LoginPage />} /> */}
+          <Route path="/loginpage" element={<Login />} />
            {/* <Route path="/about" element={<AboutPage />} />  */}
-           {/* <Route path="/dashboard" element={<Dashboard />} />  */}
+           <Route path="/dashboard" element={<Dashboard />} /> 
            <Route path="/" element={<HomePage />} /> 
-           <Route path="/" element={<PricingPage />} /> 
+           <Route path="/PricingPage" element={<PricingPage />} /> 
            {/* <Route path="/" element={<Contact />} />  */}
            
 
@@ -29,8 +31,8 @@ function App() {
           {/* <Route path="*" element={<PageNotFound/>} /> */}
 
         </Routes>
-        {/* <PricingPage/>
-        <Contact/> */}
+         {/* <PricingPage/>
+        <Contact/>  */}
         {/* <Footer/> */}
     </div>
   );
