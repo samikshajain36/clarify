@@ -13,10 +13,10 @@ function App() {
   return (
     <div className="App">
      
-     <Header/>
+     {/* <Header/> */}
         {/* <Navbar/> */}
         <Routes>
-          {/* <Route path="/dropdownprofile" element={<DropdownProfle />} /> */}
+          <Route path="/header" element={<Header />} />
           <Route path="/loginpage" element={<Login />} />
            {/* <Route path="/about" element={<AboutPage />} />  */}
            <Route path="/dashboard" element={<Dashboard />} /> 

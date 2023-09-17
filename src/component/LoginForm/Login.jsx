@@ -1,7 +1,7 @@
 import { Field, Formik, Form } from 'formik'
 import * as Yup from 'yup';
 import React, { useEffect, useState } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const Login = () => {

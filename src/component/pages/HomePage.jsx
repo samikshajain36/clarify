@@ -53,7 +53,7 @@ const HomPage = () => {
               </div>
               <h1 className='text-2xl Gilroy-Bold font-bold  leading-tight max-width'>Fatoura.work was built to serve freelancers and business owners with a complete suite of invoicing & payment tools to advance their business.</h1>
               <h1 className='text-2xl Gilroy-Bold font-bold  leading-tight mt-2 mb-4 max-width '>Invoicing & Payments Every feature is geared towards accurate and secure invoicing and getting you paid.</h1>
-              <button className='font-bold m-2 border border-slate-300 p-2 w-24 rounded font-bold rounded-2xl w-[150px]'>Start Now </button>
+              <button className='font-bold m-2 border border-slate-300 p-2 w-24 rounded font-bold rounded-2xl w-[150px]'>Start Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
         </div>

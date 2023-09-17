@@ -1,0 +1,15 @@
+.dashboardbg{
+    background-color: #0c4d71;
+}
+.margin{
+    margin-left: 222px;
+}
+.margin2{
+    margin-left: 235px;
+    background-color: rgb(12, 77, 113);
+    /* width: 123px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
