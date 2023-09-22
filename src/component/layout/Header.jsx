@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div>
-        <nav className='flex justify-between w-f py-3 p-32 shadow-lg '>
+        <nav className='flex justify-between w-f py-3 p-32 shadow '>
           <img className="w-[150px]" src="	https://fatoura.work/assets/images/Fatoura-Logo-Dark.png" alt="" />
             <ul className='flex mx-auto m-3 gap-14 '>
               <div className='flex flex-col'>

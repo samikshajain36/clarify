@@ -2,7 +2,8 @@
     background-color: #0c4d71;
 }
 .margin{
-    margin-left: 222px;
+    margin-left: 245px;
+
 }
 .margin2{
     margin-left: 235px;
@@ -12,4 +13,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.bgcolor1{
+    background-color: #ebf6f7;
+}
+.dark-green{
+    background-color: #059ca4;
+}
+.chart{
+    margin-left: 187px
 }

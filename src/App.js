@@ -8,32 +8,35 @@ import Contact from './component/pages/Contact';
 import Footer from './component/Footer';
 import Login from './component/LoginForm/Login';
 import Dashboard from './component/Dashboard';
+import Invoice from './component/pages/Invoice';
+import Sidebar from './component/layout/Sidebar';
+import AccessBar from './component/pages/AccessBar';
 
 function App() {
   return (
     <div className="App">
-     
-     {/* <Header/> */}
-        {/* <Navbar/> */}
-        <Routes>
-          <Route path="/header" element={<Header />} />
-          <Route path="/loginpage" element={<Login />} />
-           {/* <Route path="/about" element={<AboutPage />} />  */}
-           <Route path="/dashboard" element={<Dashboard />} /> 
-           <Route path="/" element={<HomePage />} /> 
-           <Route path="/PricingPage" element={<PricingPage />} /> 
-           {/* <Route path="/" element={<Contact />} />  */}
-           
-
-           {/* <Route path="/profile-page" element={<ProfileSettingsPage/>} />  */}
-           {/* <Route path="/settings" element={<SettingsPage />} />  */}
-           <Route path="/signup" element={<Signup/>} />
-          {/* <Route path="*" element={<PageNotFound/>} /> */}
-
-        </Routes>
-         {/* <PricingPage/>
-        <Contact/>  */}
-        {/* <Footer/> */}
+      <Routes>
+        <Route path="/header" element={<Header />} />
+        <Route path="/loginpage" element={<Login />} />
+        <Route path="/dashboard" element={<>
+          <Sidebar />
+          <AccessBar/>
+          <Dashboard />
+          
+        </>} />
+        <Route path="/" element={<>
+          <Header />
+          <HomePage />
+          <PricingPage />
+          <Contact />
+          <Footer />
+        </>
+        } />
+        <Route path="/PricingPage" element={<PricingPage />} />
+        <Route path="/myinvoice" element={<Invoice />} />
+        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="*" element={<PageNotFound/>} /> */}
+      </Routes>
     </div>
   );
 }
