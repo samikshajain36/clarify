@@ -3,8 +3,8 @@ import '../../Contact.css'
 
 const Contact = () => {
   return (
-    <div>
-         <div className='flex mb-7 mb-8 p-6 light-color-1  justify-center gap-14'>
+    <div id='hero'>
+         <div className='flex mb-7 mb-8 p-6 light-color-1 flex-wrap justify-center gap-14'>
                 <div className='flex flex-col '>
                     <h1>Contact Us</h1>
                     <h1 className='text-5xl Gilroy-Bold mb-8 font-bold'>Let’s Get in Touch!</h1>

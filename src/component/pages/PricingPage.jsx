@@ -3,7 +3,7 @@ import '../../Pricing.css'
 
 const PricingPage = () => {
     return (
-        <div>
+        <div id='price'> 
 
             <div class="relative overflow-x-auto mt-8 mb-6 font-bold Gilroy-Bold text-lg ">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -155,7 +155,7 @@ const PricingPage = () => {
                             </td>
 
                         </tr>
-                        <tr class="bg-white dark:bg-gray-800 bgcolor1">
+                        {/* <tr class="bg-white dark:bg-gray-800 bgcolor1"> */}
                             <th scope="row" class="px-6 py-4 font-bold Gilroy-Bold text-lg font-medium text-gray-900 whitespace-nowrap dark:text-white">
                            
                             </th>
@@ -173,7 +173,7 @@ const PricingPage = () => {
 
                             </td>
 
-                        </tr>
+                        {/* </tr> */}
                     </tbody>
                 </table>
             </div>

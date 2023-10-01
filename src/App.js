@@ -11,6 +11,7 @@ import Dashboard from './component/Dashboard';
 import Invoice from './component/pages/Invoice';
 import Sidebar from './component/layout/Sidebar';
 import AccessBar from './component/pages/AccessBar';
+import WrapCom from './component/utils/WrapCom';
 
 function App() {
   return (
@@ -33,8 +34,9 @@ function App() {
         </>
         } />
         <Route path="/PricingPage" element={<PricingPage />} />
-        <Route path="/myinvoice" element={<Invoice />} />
+        <Route path="/myinvoice" element={ <WrapCom Comp={Invoice}/>} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/contact" element= { <Contact />} />
         {/* <Route path="*" element={<PageNotFound/>} /> */}
       </Routes>
     </div>

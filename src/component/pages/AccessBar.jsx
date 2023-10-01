@@ -10,7 +10,7 @@ const AccessBar = () => {
     }
     return (
         <div>
-            <nav className='bg-white shadow p-4 '>
+            <nav className=' ml-56 white shadow p-4 '>
                 <div className='margin'>
                     <button
                         className='border border-slate-300 p-2 rounded-xl dashboardbg text-white'
