@@ -11,7 +11,7 @@ const AccessBar = () => {
     return (
         <div>
             <nav className=' ml-56 white shadow p-4 '>
-                <div className='margin'>
+                <div>
                     <button
                         className='border border-slate-300 p-2 rounded-xl dashboardbg text-white'
                         onClick={toggle}

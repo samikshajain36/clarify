@@ -2,7 +2,7 @@ import React from 'react'
 import '../../AddItem.css'
 import { useState } from 'react';
 
-const AddItem = ({ isOpen, onClose, addItem}) => {
+const AddItem = ({ isOpen, onClose, addItem,showItem}) => {
   const [item, setItem] = useState({ name: '', sku: '', quantity: '', unitPrice: '' });
 
   const handleInputChange = (event) => {
@@ -13,7 +13,8 @@ const AddItem = ({ isOpen, onClose, addItem}) => {
   const handleAddItem = () => {
     addItem(item); // Pass the item to the parent component
     setItem({ name: '', sku: '', quantity: '', unitPrice: '' }); // Clear the input fields
-    onClose(); // Close the modal
+    onClose(); 
+    showItem(true)
   };
   return (
     <div  className={`item-modal ${isOpen ? 'open' : ''}`}>

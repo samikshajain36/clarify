@@ -27,9 +27,11 @@ function App() {
         </>} />
         <Route path="/" element={<>
           <Header />
+          <div className='container'>
           <HomePage />
           <PricingPage />
           <Contact />
+          </div>
           <Footer />
         </>
         } />
